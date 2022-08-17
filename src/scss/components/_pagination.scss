@@ -1,0 +1,11 @@
+// Paginacao
+.pagination {
+    font-weight: $fw-medium;
+    .page-link {
+        color:$primary;
+    }
+    .page-item.active .page-link {
+        background-color: $primary;
+        border-color: $primary;
+    }
+}

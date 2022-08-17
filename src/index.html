@@ -1,0 +1,18 @@
+{% extends "template.html" %}
+
+{% set page ='home' %}
+
+{% block meta %}
+<title>lorem_title</title>
+{% endblock %}
+
+{% block content %}
+
+{% include "parts/header.html" %} 
+{% include "parts/breadcrumb.html" %} 
+{% include "parts/content-main.html" %} 
+{% include "parts/news-blog.html" %} 
+{% include "parts/newsletter.html" %} 
+{% include "parts/footer.html" %} 
+
+{% endblock %}

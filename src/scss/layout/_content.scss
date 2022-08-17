@@ -1,0 +1,37 @@
+.cursos-livres {
+    .btn {
+        background-color: $primary;
+        color:$white;
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: $fw-bold;
+        border-radius: 9.12px;
+        padding: 12px;
+    }
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.courses {
+    // width: 1440px;
+    @media (min-width: 1200px) {
+        padding: 70px 70px 210px;
+    }
+    @media (max-width: 1199px) {
+    }
+    @media (max-width: 1024px) {
+    }
+    @media (max-width: 991.98px) {
+    }
+    @media (max-width: 767.98px) {
+      font-size: 1.75rem;
+      line-height: 2.0625rem;
+    }
+    @media (max-width: 576px) {
+        .courses {
+            padding: 20px, 15px, 20px, 15px;
+        } 
+}
+}

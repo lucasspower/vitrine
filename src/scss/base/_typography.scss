@@ -1,0 +1,130 @@
+/*--------------------------------------------------------------
+# Base Typography
+--------------------------------------------------------------*/
+body {
+  font-family: $font-primary;
+  color: $text-color;
+}
+
+body,
+input,
+select,
+textarea {
+  font-family: $font-primary;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-primary;
+  color: $text-color; 
+  
+  &.title-primary {
+    font-size: 2.25rem;
+    color: $secondary;
+    line-height: 2.625rem;
+    font-weight: 700;
+  }
+
+  &.title-default {
+    font-size: 2.375rem;
+    line-height: 2.8125rem;
+    font-weight: 400;
+    color: $text-color;
+    @media (max-width: 1199px) {
+    }
+    @media (max-width: 1024px) {
+    }
+    @media (max-width: 991.98px) {
+    }
+    @media (max-width: 767.98px) {
+      font-size: 1.75rem;
+      line-height: 2.0625rem;
+    }
+    @media (max-width: 576px) {
+    }
+    strong {
+      font-weight: 700;
+    }
+  }
+  &.title-default.title-white {
+    color: $white;
+  }
+  &.title-card {
+    font-size: 1.25rem;
+    color:$text-color;
+    font-weight: 700;
+    line-height: 1.4375rem;
+    &::before {
+      @include separator(6.875rem);
+      margin: 10px 0;
+    }
+  }
+  &.title-menu-footer {
+    font-size: 1rem;
+    font-weight: 500;
+    color:$secondary;
+    letter-spacing: -0.022em;
+    line-height: 1.4312rem;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.price-text {
+  small {
+    font-size: 0.875rem;
+    color: $text-color;
+    + span {
+      color: $secondary;
+      display: block;
+      font-size: 1.475rem;
+      font-weight: $fw-bold;
+      margin-top: 0.2rem;
+      @media (min-width: 992px) and (max-width: 1200px) {
+        font-size: 1.275rem;
+      }
+      small {
+        font-size: 0.755rem;
+        font-weight: $fw-light;
+        color: $secondary;
+      }
+    }
+  }
+} 
+
+.price-discont {
+  background-color: $white;
+  color: $primary;
+  font-weight: $fw-bold;
+  font-size: 0.775rem;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.175rem;
+}

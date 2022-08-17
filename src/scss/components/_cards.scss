@@ -1,0 +1,39 @@
+  .course-types {
+    position: absolute;
+    right: 0.375rem;
+    top: 0.375rem;
+    gap: 0.3125rem;
+    span {
+        border:1px solid #F1F1F1
+    }
+}
+.card-item {
+    padding: 0.4688rem !important;
+}
+.card {
+    
+    .card-header {
+        position: relative;
+    }
+    padding: 0.375rem;
+    .title-card {
+        font-size: 1.25rem;
+        font-weight: $fw-bold;
+        color:#636466;
+    }
+    .card-body{
+        *{
+            line-height: 130%;
+        }
+        span {
+            color:#636466;
+            font-weight: $fw-bold;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        small {
+            color:#949499;
+            font-size: 0.75rem;
+        }
+    }
+}

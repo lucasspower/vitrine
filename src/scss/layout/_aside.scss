@@ -1,0 +1,166 @@
+aside {
+    .form-sidebar {
+        background: #F9F9F9 !important;
+        header {
+            span {
+                font-size: 18px;
+                font-weight: $fw-medium;
+                color:#636466;
+                line-height: 21px;
+
+                &::before{
+                    @include separator(128px);
+                    margin-bottom: 8px;
+                }
+            }
+        }
+        
+        .title-filter {
+            font-size: 16px;
+        }
+        .filteres {
+            font-size: 14px;
+            font-weight: $fw-medium;
+            .clean-filter {
+                font-size: 12px;
+                color:#C4C4C4;
+            }
+            legend {
+                margin-bottom: 14px;
+                color:#151515;
+            }
+            .form-check {
+                margin: 0 10px 10px 0; 
+
+                // .form-check-label, .course-types span {
+                //     padding: 6px 8px;
+                //     gap: 8px;
+                //     color: #949499;
+                //     border-radius: 4px;
+                // }
+
+                .form-check-input {
+                    margin-right: 16px;
+                }
+            }
+        }
+
+        .filteres.filter-modalidade {
+            padding: 6px 15px;
+        }
+
+        .filteres:not(.filter-lorem){
+            .form-check-label{
+                background: #F1F1F1;
+                line-height: 16px;
+            }
+            input[type="checkbox"]:checked {
+                + label  {
+                    span {
+                        color:#fff;
+                    }
+                }
+            }
+        }
+
+
+        .filter-lorem {
+            font-size: 14px;
+            span[aria-label="ver mais"]{
+                color: $primary;
+                font-size: 12px;
+                font-weight: $fw-bold;
+            }
+            .form-check {
+                margin-bottom: 20px;
+            }
+        }
+
+        fieldset:last-child  {
+            input[type="checkbox"]:checked {
+                + label {
+                    color:#00b495 !important;
+                }
+            }
+        }
+
+        .filteres:not(.filter-lorem) {
+            .form-check-inline {
+                .form-check-input {
+                    display: none;
+                }
+            }
+            input[type="checkbox"]:checked {
+                + label {
+                    background-color: #00b495 !important;
+                }
+            }
+        }
+        .filteres:not(.filter-lorem) input[type="checkbox"]:checked + label{
+            background-color: #00b495 !important;
+        }
+    
+    }
+}
+
+// .form-check-label, .course-types span {
+
+
+
+
+
+.form-check-label  {
+    span {
+    padding: 6px 8px;
+    gap: 8px;
+    color: #949499;
+    border-radius: 4px;
+    font-size: 12px;
+    }
+}
+
+
+ // width: 1440px;
+ .course-types  {
+    span {
+    @media (min-width: 1200px) {
+    }
+    @media (max-width: 1199px) {
+    }
+    @media (max-width: 1024px) {
+    }
+    @media (max-width: 991.98px) {
+    }
+    @media (max-width: 767.98px) {
+    }
+    @media (max-width: 576px) {
+        font-size: 10px;
+    }
+}
+}
+ .course-types {
+   
+    @media (min-width: 1200px) {
+    }
+    @media (max-width: 1199px) {
+    }
+    @media (max-width: 1024px) {
+    }
+    @media (max-width: 991.98px) {
+    }
+    @media (max-width: 767.98px) {
+    }
+    @media (max-width: 576px) {
+        gap:7px;
+   
+    }
+    span{
+        @media (max-width: 576px) {
+
+            padding: 3px 6px;
+        }
+    }
+
+ }
+
+ 

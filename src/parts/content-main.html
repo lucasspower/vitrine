@@ -1,0 +1,134 @@
+<main>
+  <div class="container-fluid courses">
+    <div class="row">
+      <div class="col-12 col-md-4 col-xl-3">
+        <aside class="btn-group d-block">
+          {% include "./components/parts/aside.html" %}
+        </aside> <!-- /aside -->
+      </div> <!-- /div -->
+
+      <section class="col-12 col-md-8 col-xl-9 cursos-livres">
+        <header>
+          <div class="row align-items-center">
+            <div class="col-6">
+              <h1 class="title-primary">Cursos livres</h1>
+            </div> <!-- /col  -->
+
+            <div class="col-6 d-flex align-content-stretch justify-content-end no-gutters">
+              <form class="" action="">
+                <fieldset class="d-flex align-items-stretch">
+                  <div class="btn-group rounded-lg bg-dark border border-secondary mr-2">
+                    <div class="form-check form-check-inline m-0">
+                      <input type="radio" class="btn-check" name="options" id="cards-list" autocomplete="off" checked />
+                      <label class="d-flex px-4 py-3 rounded m-0 h-100" for="cards-list">
+                        <img src="assets/imagens/img/icons/grid-text.svg" alt="cards list">
+                      </label>
+                    </div>
+                  
+                    <div class="form-check form-check-inline m-0">
+                      <input type="radio" class="btn-check" name="options" id="cards-grid" autocomplete="off"/>
+                      <label class="d-flex px-4 py-3 m-0 rounded-lg" for="cards-grid">
+                        <img src="assets/imagens/img/icons/grid.svg" alt="cards grid">
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="form-check form-check-inline w-100 mr-0">
+                    <div class="form-group m-0 h-100">
+                      <div class="dropdown bootstrap-select dropup show h-100">
+                      <select class="form-control h-100" id="exampleFormControlSelect1">
+                        <option value="" selected="" disabled>Ordenar por</option>
+                        <option value="1">Lorem</option>
+                        <option value="2">Lorem</option>
+                        <img src="assets/imagens/img/icons/ordenacao.svg" alt="Ordenar por">
+                      </select>
+                      </div>
+                    </div>
+                  </div> <!-- /div-check  -->
+                </fieldset> <!-- /fieldset -->
+              </form> <!-- /form  -->
+            </div> <!-- /col  -->
+          </div> <!-- /row  -->
+        </header> <!-- /header  -->
+
+        <!-- === infinity-cards === -->
+        <article class="row">
+          <!-- ###### Card_Item ###### -->
+          <div class="col-6 col-lg-3 bg-light px-0 card-item">
+            {% include "./components/parts/card.html" %}
+          </div>
+          <!-- ###### Card_Item ###### -->
+          <div class="col-6 col-lg-3 bg-light px-0 card-item">
+            {% include "./components/parts/card.html" %}
+          </div>
+          <!-- ###### Card_Item ###### -->
+          <div class="col-6 col-lg-3 bg-light px-0 card-item">
+            {% include "./components/parts/card.html" %}
+          </div>
+          <!-- ###### Card_Item ###### -->
+          <div class="col-6 col-lg-3 bg-light px-0 card-item">
+            {% include "./components/parts/card.html" %}
+          </div>
+          <!-- ###### Card_Item ###### -->
+          <div class="col-6 col-lg-3 bg-light px-0 card-item">
+            {% include "./components/parts/card.html" %}
+          </div>
+          <!-- ###### Card_Item ###### -->
+          <div class="col-6 col-lg-3 bg-light px-0 card-item">
+            {% include "./components/parts/card.html" %}
+          </div>
+          <!-- ###### Card_Item ###### -->
+          <div class="col-6 col-lg-3 bg-light px-0 card-item">
+            {% include "./components/parts/card.html" %}
+          </div>
+          <!-- ###### Card_Item ###### -->
+          <div class="col-6 col-lg-3 bg-light px-0 card-item">
+            {% include "./components/parts/card.html" %}
+          </div>
+        </article> <!-- /row -->      
+
+        <div class="row d-none d-lg-flex">
+          <nav class="col px-2" aria-label="Lista completa de cursos">
+            <ul class="pagination">
+              <li class="disabledpage-item" aria-current="Anterior">
+                <a aria-label="Página anterior" role="button" class="page-link">Anterior</a>
+              </li>
+              <li class="page-item active" aria-current="Página 1">
+                <a aria-label="Página 1" role="button" class="page-link" href="#">1</a>
+              </li>
+        
+              <li class="page-item " aria-current="Página 2">
+                <a aria-label="Página 2" role="button" class="page-link" href="#">2</a>
+              </li>
+        
+              <li class="page-item"  aria-current="Próximo">
+                <a aria-label="Próxima página" role="button" class="page-link" href="#">Próximo</a>
+              </li>
+            </ul> <!-- /pagination -->
+          </nav> <!-- /nav -->
+        </div> <!-- /row -->
+      
+        <div class="row d-lg-none">
+          <div class="col-12">
+            <span aria-label="ver mais" role="button" class="btn btn-lg d-block">ver mais</span>
+          </div> <!-- /col -->
+        </div> <!-- /row -->
+
+      </section> <!-- container-curso -->
+    </div> <!-- /row -->
+  </div> <!-- /container -->
+</main> <!-- /main -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+@mixin separator($width) {
+    content: '';
+    display: block;
+    background-color:$primary;
+    height: 0.1875rem;
+    width: $width;
+}
